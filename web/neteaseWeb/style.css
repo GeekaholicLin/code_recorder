@@ -1,0 +1,127 @@
+/*能以背景形式呈现的图片，尽量写入css样式中。*/
+/*背景层，不能写定width*/
+.wrap {
+    background: url(img/bg.jpg) no-repeat scroll center top;
+    height: 848px; /*因为底部高100px*/
+    min-width: 1280px;
+    max-width: 1980px;
+    margin: 0 auto; /*背景相对于浏览器窗口居中，很重要*/
+}
+
+.content {
+    width: 1200px;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto; /*如果没有会背景拉长，而content框没有动*/
+}
+
+.logo {
+    display: block;
+    width: 205px;
+    height: 87px;
+    background-image: url(img/logo.gif);
+    position: absolute;
+    left: 43%
+}
+
+.slogan {
+    display: block;
+    width: 609px;
+    height: 264px;
+    background-image: url(img/sprite.png);
+    background-position: 0 0;
+    position: absolute;
+    left: 330px;
+    top: 110px
+}
+
+.slogan:hover {
+    background-image: url(img/sprite.png);
+    background-position: 0 -266px;
+}
+
+.info {
+    color: #e98f5a;
+    font-size: 20px;
+    line-height: 25px;
+    position: absolute;
+    top: 370px;
+    left: 450px
+}
+
+.btn a {
+    display: block;
+    width: 324px;
+    height: 87px;
+    margin-bottom: 40px;
+    position: absolute
+}
+
+.btn1 {
+    background-image: url(img/sprite.png);
+    background-position: -611px -90px;
+    top: 430px;
+    left: 425px
+}
+
+.btn1:hover {
+    background-image: url(img/sprite.png);
+    background-position: -611px -179px;
+}
+
+.btn2 {
+    background-image: url(img/sprite.png);
+    background-position: -611px -268px;
+    top: 550px;
+    left: 505px
+}
+
+.btn2:hover {
+    background-image: url(img/sprite.png);
+    background-position: -611px 0;
+}
+
+.btn3 {
+    background-image: url(img/sprite.png);
+    background-position: -611px -357px;
+    top: 670px;
+    left: 585px
+}
+
+.btn3:hover {
+    background-image: url(img/sprite.png);
+    background-position: -611px -446px;
+}
+
+.nav {
+    margin-right: 8px
+}
+
+#icon, .ref-link {
+    float: right
+}
+
+.ref-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #8c583a;
+    margin-right: 15px
+}
+
+.ref-link:hover {
+    color: #e9583f
+}
+
+#icon .NIE-share-iconBtn a {
+    font-size: 20px;
+    line-height: 25px;
+    color: #8c583a
+}
+
+#icon .NIE-share-iconBtn a:hover {
+    color: #e9583f;
+}
+#NIE-copyRight{
+    height: 100px;
+    background-color: #1d1a1c;
+}
