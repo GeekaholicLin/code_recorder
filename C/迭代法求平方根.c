@@ -10,7 +10,7 @@ int main() {
         x1= x2;
         x2=(x1+(a/x1))/2;
     }
-    printf("%.3lf",x2);
+    printf("%.4lf",x2);
     return 0;
 }
 
